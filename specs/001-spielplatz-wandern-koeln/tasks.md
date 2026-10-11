@@ -55,6 +55,3 @@ eigene Aufgaben. US3 ist für Übersicht und Details teilweise in T005, T006 und
 T008 berücksichtigt; eine Abnahme mit Karte bleibt offen. FR-004 und FR-005,
 Kartenfehler und alle kartenbezogenen Erfolgskriterien sind nicht Teil dieser Liste.
 Wir erklären den ersten Zwischenstand nicht zur vollständigen Version 1.
-
-
-

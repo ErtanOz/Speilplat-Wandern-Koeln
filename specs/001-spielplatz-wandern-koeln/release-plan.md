@@ -48,4 +48,3 @@ Gehzeit wird mit 4 km/h geschätzt, ohne Spielpausen.
 - Valhalla: https://valhalla.github.io/valhalla/api/turn-by-turn/overview/
 - Leaflet: https://leafletjs.com/download.html
 - OSM-Kacheln: https://operations.osmfoundation.org/policies/tiles/
-
