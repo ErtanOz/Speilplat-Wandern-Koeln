@@ -1,0 +1,377 @@
+{
+  "trip": {
+    "locations": [
+      {
+        "type": "break",
+        "lat": 50.931081,
+        "lon": 6.911965,
+        "side_of_street": "right",
+        "original_index": 0
+      },
+      {
+        "type": "break",
+        "lat": 50.929639,
+        "lon": 6.918258,
+        "side_of_street": "right",
+        "original_index": 1
+      },
+      {
+        "type": "break",
+        "lat": 50.927423,
+        "lon": 6.906678,
+        "side_of_street": "left",
+        "original_index": 2
+      }
+    ],
+    "legs": [
+      {
+        "maneuvers": [
+          {
+            "type": 2,
+            "instruction": "Richtung Osten laufen.",
+            "verbal_succinct_transition_instruction": "Richtung Osten laufen. Dann Rechts abbiegen.",
+            "verbal_pre_transition_instruction": "Richtung Osten laufen. Dann Rechts abbiegen.",
+            "verbal_post_transition_instruction": "10 Meter weiter der Route folgen.",
+            "bearing_after": 74,
+            "time": 7.156,
+            "length": 0.011,
+            "cost": 7.156,
+            "begin_shape_index": 0,
+            "end_shape_index": 1,
+            "rough": true,
+            "verbal_multi_cue": true,
+            "travel_mode": "pedestrian",
+            "travel_type": "foot"
+          },
+          {
+            "type": 10,
+            "instruction": "Rechts abbiegen.",
+            "verbal_transition_alert_instruction": "Rechts abbiegen.",
+            "verbal_succinct_transition_instruction": "Rechts abbiegen.",
+            "verbal_pre_transition_instruction": "Rechts abbiegen.",
+            "verbal_post_transition_instruction": "30 Meter weiter der Route folgen.",
+            "bearing_before": 74,
+            "bearing_after": 164,
+            "time": 18.832,
+            "length": 0.029,
+            "cost": 18.832,
+            "begin_shape_index": 1,
+            "end_shape_index": 2,
+            "rough": true,
+            "travel_mode": "pedestrian",
+            "travel_type": "foot"
+          },
+          {
+            "type": 15,
+            "instruction": "Links abbiegen.",
+            "verbal_transition_alert_instruction": "Links abbiegen.",
+            "verbal_succinct_transition_instruction": "Links abbiegen. Dann Rechts auf Theresienstraße abbiegen.",
+            "verbal_pre_transition_instruction": "Links abbiegen. Dann Rechts auf Theresienstraße abbiegen.",
+            "verbal_post_transition_instruction": "20 Meter weiter der Route folgen.",
+            "bearing_before": 164,
+            "bearing_after": 77,
+            "time": 10.588,
+            "length": 0.015,
+            "cost": 10.588,
+            "begin_shape_index": 2,
+            "end_shape_index": 3,
+            "rough": true,
+            "verbal_multi_cue": true,
+            "travel_mode": "pedestrian",
+            "travel_type": "foot"
+          },
+          {
+            "type": 10,
+            "instruction": "Rechts auf Theresienstraße abbiegen.",
+            "verbal_transition_alert_instruction": "Rechts auf Theresienstraße abbiegen.",
+            "verbal_succinct_transition_instruction": "Rechts abbiegen.",
+            "verbal_pre_transition_instruction": "Rechts auf Theresienstraße abbiegen.",
+            "verbal_post_transition_instruction": "200 Meter weiter der Route folgen.",
+            "street_names": [
+              "Theresienstraße"
+            ],
+            "bearing_before": 77,
+            "bearing_after": 164,
+            "time": 127.27,
+            "length": 0.166,
+            "cost": 132.27,
+            "begin_shape_index": 3,
+            "end_shape_index": 10,
+            "travel_mode": "pedestrian",
+            "travel_type": "foot"
+          },
+          {
+            "type": 15,
+            "instruction": "Links auf Dürener Straße/B 264 abbiegen.",
+            "verbal_transition_alert_instruction": "Links auf Dürener Straße abbiegen.",
+            "verbal_succinct_transition_instruction": "Links abbiegen.",
+            "verbal_pre_transition_instruction": "Links auf Dürener Straße, B 264 abbiegen.",
+            "verbal_post_transition_instruction": "300 Meter weiter der Route folgen.",
+            "street_names": [
+              "Dürener Straße",
+              "B 264"
+            ],
+            "bearing_before": 161,
+            "bearing_after": 58,
+            "time": 217.087,
+            "length": 0.302,
+            "cost": 222.087,
+            "begin_shape_index": 10,
+            "end_shape_index": 27,
+            "travel_mode": "pedestrian",
+            "travel_type": "foot"
+          },
+          {
+            "type": 10,
+            "instruction": "Rechts auf Geibelstraße abbiegen.",
+            "verbal_transition_alert_instruction": "Rechts auf Geibelstraße abbiegen.",
+            "verbal_succinct_transition_instruction": "Rechts abbiegen.",
+            "verbal_pre_transition_instruction": "Rechts auf Geibelstraße abbiegen.",
+            "verbal_post_transition_instruction": "200 Meter weiter der Route folgen.",
+            "street_names": [
+              "Geibelstraße"
+            ],
+            "bearing_before": 62,
+            "bearing_after": 161,
+            "time": 107.294,
+            "length": 0.152,
+            "cost": 112.294,
+            "begin_shape_index": 27,
+            "end_shape_index": 31,
+            "travel_mode": "pedestrian",
+            "travel_type": "foot"
+          },
+          {
+            "type": 15,
+            "instruction": "Links auf Immermannstraße abbiegen.",
+            "verbal_transition_alert_instruction": "Links auf Immermannstraße abbiegen.",
+            "verbal_succinct_transition_instruction": "Links abbiegen.",
+            "verbal_pre_transition_instruction": "Links auf Immermannstraße abbiegen.",
+            "verbal_post_transition_instruction": "50 Meter weiter der Route folgen.",
+            "street_names": [
+              "Immermannstraße"
+            ],
+            "bearing_before": 162,
+            "bearing_after": 72,
+            "time": 35.805,
+            "length": 0.048,
+            "cost": 40.805,
+            "begin_shape_index": 31,
+            "end_shape_index": 35,
+            "travel_mode": "pedestrian",
+            "travel_type": "foot"
+          },
+          {
+            "type": 5,
+            "instruction": "Ziel befindet sich auf der rechten Seite.",
+            "verbal_transition_alert_instruction": "Das Ziel befindet sich auf der rechten Seite.",
+            "verbal_pre_transition_instruction": "Ziel befindet sich auf der rechten Seite.",
+            "bearing_before": 63,
+            "time": 0,
+            "length": 0,
+            "cost": 0,
+            "begin_shape_index": 35,
+            "end_shape_index": 35,
+            "travel_mode": "pedestrian",
+            "travel_type": "foot"
+          }
+        ],
+        "summary": {
+          "has_time_restrictions": false,
+          "has_toll": false,
+          "has_highway": false,
+          "has_ferry": false,
+          "min_lat": 50.929489,
+          "min_lon": 6.911944,
+          "max_lat": 50.931155,
+          "max_lon": 6.918134,
+          "time": 524.035,
+          "length": 0.724,
+          "cost": 544.035
+        },
+        "shape": "mzqc`Bo{zdLw@mH|NgF}@}KxBw@~Ai@|JkDr{@g[~As@vAq@|CwA{AmFq@_CsFkRoHeWcDwJkP{j@o@wB}@_DaCmIm@qBw@oCgOeh@uJy\\]sAk@uBk@wBgBsHdD{AnAm@tdA_f@`Bs@]qC_CyR}ByL]}A"
+      },
+      {
+        "maneuvers": [
+          {
+            "type": 3,
+            "instruction": "Auf Immermannstraße Richtung Südwesten laufen.",
+            "verbal_succinct_transition_instruction": "Richtung Südwesten laufen. Dann Rechts auf Geibelstraße abbiegen.",
+            "verbal_pre_transition_instruction": "Auf Immermannstraße Richtung Südwesten laufen. Dann Rechts auf Geibelstraße abbiegen.",
+            "verbal_post_transition_instruction": "50 Meter weiter der Route folgen.",
+            "street_names": [
+              "Immermannstraße"
+            ],
+            "bearing_after": 243,
+            "time": 33.356,
+            "length": 0.048,
+            "cost": 33.356,
+            "begin_shape_index": 0,
+            "end_shape_index": 4,
+            "verbal_multi_cue": true,
+            "travel_mode": "pedestrian",
+            "travel_type": "foot"
+          },
+          {
+            "type": 10,
+            "instruction": "Rechts auf Geibelstraße abbiegen.",
+            "verbal_transition_alert_instruction": "Rechts auf Geibelstraße abbiegen.",
+            "verbal_succinct_transition_instruction": "Rechts abbiegen.",
+            "verbal_pre_transition_instruction": "Rechts auf Geibelstraße abbiegen.",
+            "verbal_post_transition_instruction": "200 Meter weiter der Route folgen.",
+            "street_names": [
+              "Geibelstraße"
+            ],
+            "bearing_before": 252,
+            "bearing_after": 342,
+            "time": 107.294,
+            "length": 0.152,
+            "cost": 112.294,
+            "begin_shape_index": 4,
+            "end_shape_index": 8,
+            "travel_mode": "pedestrian",
+            "travel_type": "foot"
+          },
+          {
+            "type": 15,
+            "instruction": "Links auf Dürener Straße/B 264 abbiegen.",
+            "verbal_transition_alert_instruction": "Links auf Dürener Straße abbiegen.",
+            "verbal_succinct_transition_instruction": "Links abbiegen.",
+            "verbal_pre_transition_instruction": "Links auf Dürener Straße, B 264 abbiegen.",
+            "verbal_post_transition_instruction": "700 Meter weiter der Route folgen.",
+            "street_names": [
+              "Dürener Straße",
+              "B 264"
+            ],
+            "bearing_before": 341,
+            "bearing_after": 242,
+            "time": 475.138,
+            "length": 0.673,
+            "cost": 480.138,
+            "begin_shape_index": 8,
+            "end_shape_index": 52,
+            "travel_mode": "pedestrian",
+            "travel_type": "foot"
+          },
+          {
+            "type": 10,
+            "instruction": "Rechts abbiegen.",
+            "verbal_transition_alert_instruction": "Rechts abbiegen.",
+            "verbal_succinct_transition_instruction": "Rechts abbiegen. Dann Leicht nach links auf Fußweg abbiegen.",
+            "verbal_pre_transition_instruction": "Rechts abbiegen. Dann Leicht nach links auf Fußweg abbiegen.",
+            "verbal_post_transition_instruction": "10 Meter weiter der Route folgen.",
+            "bearing_before": 241,
+            "bearing_after": 327,
+            "time": 7.764,
+            "length": 0.01,
+            "cost": 12.764,
+            "begin_shape_index": 52,
+            "end_shape_index": 56,
+            "verbal_multi_cue": true,
+            "travel_mode": "pedestrian",
+            "travel_type": "foot"
+          },
+          {
+            "type": 16,
+            "instruction": "Leicht nach links auf Fußweg abbiegen.",
+            "verbal_transition_alert_instruction": "Leicht nach links auf Fußweg abbiegen.",
+            "verbal_succinct_transition_instruction": "Leicht nach links abbiegen. Dann Links abbiegen.",
+            "verbal_pre_transition_instruction": "Leicht nach links auf Fußweg abbiegen. Dann Links abbiegen.",
+            "verbal_post_transition_instruction": "10 Meter weiter der Route folgen.",
+            "bearing_before": 329,
+            "bearing_after": 287,
+            "time": 8.541,
+            "length": 0.011,
+            "cost": 8.541,
+            "begin_shape_index": 56,
+            "end_shape_index": 57,
+            "verbal_multi_cue": true,
+            "travel_mode": "pedestrian",
+            "travel_type": "foot"
+          },
+          {
+            "type": 15,
+            "instruction": "Links abbiegen.",
+            "verbal_transition_alert_instruction": "Links abbiegen.",
+            "verbal_succinct_transition_instruction": "Links abbiegen. Dann Rechts abbiegen.",
+            "verbal_pre_transition_instruction": "Links abbiegen. Dann Rechts abbiegen.",
+            "verbal_post_transition_instruction": "10 Meter weiter der Route folgen.",
+            "bearing_before": 287,
+            "bearing_after": 205,
+            "time": 9.882,
+            "length": 0.014,
+            "cost": 9.882,
+            "begin_shape_index": 57,
+            "end_shape_index": 59,
+            "verbal_multi_cue": true,
+            "travel_mode": "pedestrian",
+            "travel_type": "foot"
+          },
+          {
+            "type": 10,
+            "instruction": "Rechts abbiegen.",
+            "verbal_transition_alert_instruction": "Rechts abbiegen.",
+            "verbal_succinct_transition_instruction": "Rechts abbiegen.",
+            "verbal_pre_transition_instruction": "Rechts abbiegen.",
+            "verbal_post_transition_instruction": "100 Meter weiter der Route folgen.",
+            "bearing_before": 209,
+            "bearing_after": 304,
+            "time": 95.864,
+            "length": 0.135,
+            "cost": 95.864,
+            "begin_shape_index": 59,
+            "end_shape_index": 66,
+            "rough": true,
+            "travel_mode": "pedestrian",
+            "travel_type": "foot"
+          },
+          {
+            "type": 6,
+            "instruction": "Ziel befindet sich auf der linken Seite.",
+            "verbal_transition_alert_instruction": "Das Ziel befindet sich auf der linken Seite.",
+            "verbal_pre_transition_instruction": "Ziel befindet sich auf der linken Seite.",
+            "bearing_before": 244,
+            "time": 0,
+            "length": 0,
+            "cost": 0,
+            "begin_shape_index": 66,
+            "end_shape_index": 66,
+            "travel_mode": "pedestrian",
+            "travel_type": "foot"
+          }
+        ],
+        "summary": {
+          "has_time_restrictions": false,
+          "has_toll": false,
+          "has_highway": false,
+          "has_ferry": false,
+          "min_lat": 50.927578,
+          "min_lon": 6.906556,
+          "max_lat": 50.930924,
+          "max_lon": 6.918134,
+          "time": 737.842,
+          "length": 1.045,
+          "cost": 752.842
+        },
+        "shape": "cgoc`Bk~feL\\|A|BxL~BxR\\pCaBr@udA~e@oAl@eDzAfBrHj@vBj@tB\\rAtJx\\fOdh@v@nCl@pB`ClI|@~Cn@vBjPzj@bDvJnHdWrFjRp@~BzAlF~AhFr@~BhBbGpDhMvHrWrDhM~Kp_@lF~Qt@dCp@`CZbAtK~]rMpa@bAlDzClKvFbRl@|Bn@zB`@rAbCdJnA|D\\lA^nANf@f@rBJb@b@dB}@`AMJk@h@o@l@w@~GtClBlAhAu@|B_HnU@vB\\fD|AxXxG|\\|D~Q"
+      }
+    ],
+    "summary": {
+      "has_time_restrictions": false,
+      "has_toll": false,
+      "has_highway": false,
+      "has_ferry": false,
+      "min_lat": 50.927578,
+      "min_lon": 6.906556,
+      "max_lat": 50.931155,
+      "max_lon": 6.918134,
+      "time": 1261.877,
+      "length": 1.77,
+      "cost": 1296.877
+    },
+    "status_message": "Found route between points",
+    "status": 0,
+    "units": "kilometers",
+    "language": "de-DE"
+  }
+}

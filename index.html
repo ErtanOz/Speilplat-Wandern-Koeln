@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Entdecke kurze Spaziergänge mit mehreren Spielplatzstopps in Köln. Drei Tourvorschläge mit Karte und echten Spielplatzdaten.">
+  <meta name="theme-color" content="#214c3b">
+  <title>Spielplatz Wandern Köln</title>
+  <link rel="icon" href="assets/leaf.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="src/vendor/leaflet.css">
+  <link rel="stylesheet" href="src/styles.css">
+  <script defer src="src/vendor/leaflet.js"></script>
+  <script defer src="src/tours.js"></script>
+  <script defer src="src/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Zum Inhalt</a>
+  <header class="site-header"><a class="brand" href="#"><span class="brand-icon" aria-hidden="true">✳</span><span>Spielplatz Wandern <small>KÖLN</small></span></a><span class="header-note">Kleine Wege. Große Abenteuer.</span></header>
+  <main id="main">
+    <section id="tour-overview" aria-labelledby="overview-heading">
+      <div class="hero"><div class="hero-copy"><p class="eyebrow">RAUS INS VEEDEL</p><h1 id="overview-heading">Ein Spaziergang.<br><em>Viele Spielpausen.</em></h1><p class="intro">Entdecke Köln von Spielplatz zu Spielplatz. Drei kleine Touren für einen gemeinsamen Nachmittag draußen.</p><a class="button" href="#tour-selection">Spaziergänge entdecken <span aria-hidden="true">↗</span></a><p class="hero-note">Ohne Konto · Ohne Standortfreigabe</p></div><div class="hero-art" aria-hidden="true"><svg viewBox="0 0 500 420"><circle cx="420" cy="72" r="39" fill="#e8b459"/><path d="M0 280 Q130 180 270 280 T500 240 V420 H0Z" fill="#b6c8a6"/><path d="M0 340 Q160 240 330 350 T500 300 V420 H0Z" fill="#6d9875"/><path d="M95 420 Q80 300 240 290 T350 205" fill="none" stroke="#f4e6c6" stroke-width="30"/><path d="M95 420 Q80 300 240 290 T350 205" fill="none" stroke="#c69d5c" stroke-width="2" stroke-dasharray="7 9"/><path d="M92 230 V325 M50 260 H134" stroke="#214c3b" stroke-width="12"/><circle cx="92" cy="214" r="57" fill="#3f7356"/><path d="M330 210 L380 105 L430 210 M347 175 H412" fill="none" stroke="#bf744e" stroke-width="10"/><path d="M375 150 V194 M395 150 V194 M373 197 H398" stroke="#214c3b" stroke-width="5"/><circle cx="218" cy="272" r="22" fill="#fff7e7"/><text x="218" y="280" text-anchor="middle" fill="#214c3b" font-size="24">1</text><circle cx="351" cy="218" r="22" fill="#fff7e7"/><text x="351" y="226" text-anchor="middle" fill="#214c3b" font-size="24">2</text><path d="M245 100 l40 -24 l-4 48Z" fill="#bf744e"/><path d="M266 109 Q280 154 248 172" fill="none" stroke="#214c3b" stroke-width="2"/></svg><span class="art-caption">Draußen ist immer etwas zu entdecken.</span></div></div>
+      <div class="section-wrap" id="tour-selection"><div class="section-heading"><div><p class="eyebrow">DEIN NÄCHSTER AUSFLUG</p><h2>Welches Veedel darf es sein?</h2></div><p>Drei Touren. Je drei Spielplätze.</p></div><div class="filters"><label>Tour oder Spielplatz suchen<input id="search" type="search" placeholder="Zum Beispiel: Nippes" autocomplete="off"></label><label>Stadtteil<select id="area"><option value="">Alle Stadtteile</option></select></label><button id="reset" class="text-button" type="button">Filter zurücksetzen</button></div><p id="results" class="result-count" role="status"></p><div id="tour-list" class="tour-grid"></div></div>
+      <div class="how-it-works section-wrap"><span class="step-number">01</span><div><h3>Tour aussuchen</h3><p>Vergleiche Weglänge und Gehzeit.</p></div><span class="step-number">02</span><div><h3>Stopps entdecken</h3><p>Karte und Spielplatzliste im Blick.</p></div><span class="step-number">03</span><div><h3>Zeit zum Spielen</h3><p>Die Pausen bestimmst du selbst.</p></div></div>
+    </section>
+    <section id="tour-details" class="section-wrap detail-section" aria-labelledby="details-heading" hidden><button id="back" class="text-button back" type="button">← Alle Spaziergänge</button><div id="tour-detail-content"></div></section>
+    <noscript><p class="section-wrap">Bitte aktiviere JavaScript, damit Tourübersicht und Karte angezeigt werden können.</p></noscript>
+  </main>
+  <footer class="site-footer"><div><strong>Spielplatz Wandern Köln</strong><p>Ein kleines Projekt für gemeinsame Zeit draußen.</p></div><div><p>Spielplätze: Stadt Köln · Abruf 11.10.2026<br>Fußwege: Valhalla / © OpenStreetMap-Mitwirkende</p><a href="https://data.gov.de/suche/daten/spiel-und-sportplatze-in-koln" target="_blank" rel="noopener">Datenquelle</a> · <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OSM-Lizenz</a> · <button class="text-button" id="about" type="button">Über die App & Datenschutz</button></div></footer>
+  <dialog id="about-dialog"><button id="close-about" class="text-button" type="button">Schließen ×</button><h2>Über diese App</h2><p>Version 1.0 · Ein Spec-Driven Lernprojekt. Drei Tourvorschläge zwischen echten Kölner Spielplätzen, mit vorab berechneten Fußwegen. Kein Angebot der Stadt Köln.</p><h3>Daten und Wege</h3><p>Spielplätze stammen aus dem offenen Datensatz der Stadt Köln (Datenlizenz Deutschland – Zero 2.0). Abruf: 11.10.2026. Der tatsächliche Stand einzelner Einträge ist unbekannt. Wege basieren auf OpenStreetMap und wurden nicht vor Ort geprüft. Gehzeiten sind Schätzungen mit 4 km/h, ohne Spielpausen. Eignung für Kinderwagen und Rollstuhl: keine Angabe.</p><h3>Datenschutz</h3><p>Diese App setzt keine Analyse-Cookies ein und fragt deinen Standort nicht ab. Beim Öffnen einer Tour lädt dein Browser Kartenkacheln von OpenStreetMap. Dabei werden unter anderem deine IP-Adresse und technische Anfragedaten übertragen. Der Hosting-Anbieter verarbeitet technische Zugriffsdaten für den Betrieb.</p><a href="https://osmfoundation.org/wiki/Privacy_Policy" target="_blank" rel="noopener">Datenschutz bei OpenStreetMap</a></dialog>
+</body></html>

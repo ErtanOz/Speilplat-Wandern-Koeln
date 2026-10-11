@@ -1,4 +1,4 @@
 <!-- SPECKIT START -->
-For additional context about technologies to be used, project structure,
-shell commands, and other important information, read the current plan
+Read `specs/001-spielplatz-wandern-koeln/plan.md` for technologies, structure
+and planned commands. Follow the beginner learning steps in AGENTS.md.
 <!-- SPECKIT END -->

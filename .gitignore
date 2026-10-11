@@ -1,0 +1,8 @@
+output/
+.playwright-cli/
+dist/
+release-source/
+*.tar.gz
+.openai/
+data/osm-playgrounds.json
+data/route-sample.json
